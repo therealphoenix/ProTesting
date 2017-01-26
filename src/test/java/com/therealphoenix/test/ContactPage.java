@@ -1,9 +1,9 @@
 package com.therealphoenix.test;
 
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import java.util.List;
+import org.openqa.selenium.WebElement;
 
 /**
  * Created by Hp on 24.01.2017.
@@ -17,11 +17,11 @@ public class ContactPage {
     }
 
     public void goToContact() {
-//        WebElement webElement =
-//                webDriver.findElement(By.xpath("//*[@id='mainmenu']/ul/li/a[text()='Вопросы, пожелания и заявки']"));
-//        webElement.click();
+        WebElement webElement =
+               webDriver.findElement(By.xpath("//*[@id='leftside']/p/a[contains(text(),'Вопросы')]"));
+        webElement.click();
 
     }
-
+//*[@id="leftside"]/p/a[contains(text(),'Вопросы')]
 
 }
