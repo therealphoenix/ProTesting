@@ -29,7 +29,7 @@ public class ProTestRunner {
         mainMenuClass.goToPage(MainMenuClass.QA);
         mainMenuClass.goToPage(MainMenuClass.TESTING);
         mainMenuClass.goToPage(MainMenuClass.AUTOMATION);
-     //   mainMenuClass.goToPage(MainMenuClass.SERVICES);
+        mainMenuClass.goToPage(MainMenuClass.SERVICES);
         mainMenuClass.goToPage(MainMenuClass.CONTACTS);
         mainMenuClass.goToPage(MainMenuClass.NEWS);
         mainMenuClass.goToPage(MainMenuClass.MAIN);

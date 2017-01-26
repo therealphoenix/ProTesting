@@ -13,7 +13,7 @@ public class MainMenuClass {
     static final String QA = "//*[@id='mainmenu']/ul/li/a[text()='Обеспечение Качества']";
     static final String TESTING = "//*[@id='mainmenu']/ul/li/a[text()='Тестирование']";
     static final String AUTOMATION = "//*[@id='mainmenu']/ul/li/a[text()='Автоматизация']";
-    static final String SERVICES = "//*[@id='mainmenu']/ul/li/a[text()='Сервис и Услуги']";
+    static final String SERVICES = "//*[@id='mainmenu']/ul/li/a[contains(text(),'Сервис')]";
     static final String CONTACTS = "//*[@id='mainmenu']/ul/li/a[text()='Контакт']";
     static final String NEWS = "//*[@id='mainmenu']/ul/li/a[text()='Новости']";
 
